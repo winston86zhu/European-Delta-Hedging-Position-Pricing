@@ -67,9 +67,9 @@ In details:
       ▪ Remain with a balance bank account.\
 
   - Similarly, we analize on the mean, std, VaR and CVaR for the portfolio using this stretegy,
-  ![alt text](https://github.com/nacked-riveroverflow/European-Delta-Hedging-Position-Pricing/blob/master/result/Stoplosstable.JPG) 
+  ![alt text](https://github.com/nacked-riveroverflow/European-Delta-Hedging-Position-Pricing/blob/master/result/Stoplosstable.jpg) 
   - The stop loss histogram looks like: 
-  ![alt text](https://github.com/nacked-riveroverflow/European-Delta-Hedging-Position-Pricing/blob/master/result/Stoplosshist.JPG) 
+  ![alt text](https://github.com/nacked-riveroverflow/European-Delta-Hedging-Position-Pricing/blob/master/result/Stoplosshist.jpg) 
 
 
 
