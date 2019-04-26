@@ -28,7 +28,11 @@ Typical European Hedging Scenario including [Straddle, Stop-Loss, Jump Model]
 
 ### **Step 2: Interpolation using above binomial grid for passed in stock price**
   - This gives us our first attempt result
-  ![alt text](https://github.com/nacked-riveroverflow/European-Delta-Hedging-Position-Pricing/master/result/Binomialplot.JPG) 
+  ![alt text](https://github.com/nacked-riveroverflow/European-Delta-Hedging-Position-Pricing/blob/master/result/Binomialplot.JPG) 
+  
+### **Step 3: When we hedge at different frequencies**
+  - Code only includes hedging weekly as an example
+  ![alt text](https://github.com/nacked-riveroverflow/European-Delta-Hedging-Position-Pricing/blob/master/result/hedgingdaily.JPG) 
 
 
   
