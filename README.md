@@ -71,6 +71,21 @@ In details:
   - The stop loss histogram looks like: 
   ![alt text](https://github.com/nacked-riveroverflow/European-Delta-Hedging-Position-Pricing/blob/master/result/Stoplosshist.jpg) 
 
+  - Observation:
+  ```
+    • Comment:
+    We observed the mean is about 1, however, no matter how larger we chose the steps, the std is at around 0.71, which means this strategy is not stable enough.
+
+    The VaR and CVaR suggests the risk exposure still persists after hedging.
+
+  ```
+
+  - Analysis
+  ```
+  No matter how frequently we hedge our portfolio, the tiny time step makes it possible to stock price to cross over K at both directions.
+
+  Hence we might end up buying the stock lots of times. Even if the ϵ=0, we might still end up lossing money, since we borrowed money for multiple times. 
+  ```
 
 
 
