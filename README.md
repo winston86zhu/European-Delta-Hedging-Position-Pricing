@@ -54,7 +54,18 @@ We considered this a classic example of buy low sell high!
       
 In details: 
   - Assume that S0 < K, i.e. the initial asset price is less than K. As soon as S = K+ep, ep << 1, the writer borrows K+ep and buys the stock. As soon as S = K − ep, the writer sells the stock. 
-  
+
   - In Execution,  If S < K at expiry, the writer holds no stock, and does not owe the holder of the option anything. If S > K at expiry, the writer sells the stock at price S, gives the holder S −K, and pays back the loan of K used to buy the stock. If we monitor the strategy closely, we can make ep as small as we like. Consequently, this strategy should cost less than the Black-Scholes price.
+
+  -Lastly we apply 2 different masks to the price vector(S0).
+    Case 1: When a final S < K, then 
+      ▪ we do not hold any stock and the portfolio at the end is just the balance B.
+    ○ Case 2: When a final S >= K, then we do the following:
+      ▪ Sell the stock of position delta at price ST(final price at time = T(expiry time))           
+      ▪ Pay the payoff of the option 
+      ▪ Remain with a balance bank account.
+
+
+
       
   
