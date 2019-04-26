@@ -32,7 +32,11 @@ Typical European Hedging Scenario including [Straddle, Stop-Loss, Jump Model]
   
 ### **Step 3: When we hedge at different frequencies**
   - Code only includes hedging weekly as an example
-  ![alt text](https://github.com/nacked-riveroverflow/European-Delta-Hedging-Position-Pricing/blob/master/result/hedgingdaily.JPG) 
+  ![alt text](https://github.com/nacked-riveroverflow/European-Delta-Hedging-Position-Pricing/blob/master/result/hedgingdaily.JPG)
+  ![alt text](https://github.com/nacked-riveroverflow/European-Delta-Hedging-Position-Pricing/blob/master/result/hedgingweekly.JPG) 
+  
+  - When we quantify the result, we obtained
+  ![alt text](https://github.com/nacked-riveroverflow/European-Delta-Hedging-Position-Pricing/blob/master/result/q4-table.PNG) 
 
 
   
