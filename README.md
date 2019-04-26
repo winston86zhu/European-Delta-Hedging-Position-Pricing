@@ -53,7 +53,8 @@ We want to make the process path dependent, meaning we set vault to the price pa
 We considered this a classic example of buy low sell high!
       
 In details: 
-      - Assume that S0 < K, i.e. the initial asset price is less than K. As soon as S = K+ep, ep << 1, the writer borrows K+ep and buys the stock. As soon as S = K − ep, the writer sells the stock. 
-      - In Execution,  If S < K at expiry, the writer holds no stock, and does not owe the holder of the option anything. If S > K at expiry, the writer sells the stock at price S, gives the holder S −K, and pays back the loan of K used to buy the stock. If we monitor the strategy closely, we can make ep as small as we like. Consequently, this strategy should cost less than the Black-Scholes price.
+  - Assume that S0 < K, i.e. the initial asset price is less than K. As soon as S = K+ep, ep << 1, the writer borrows K+ep and buys the stock. As soon as S = K − ep, the writer sells the stock. 
+  
+  - In Execution,  If S < K at expiry, the writer holds no stock, and does not owe the holder of the option anything. If S > K at expiry, the writer sells the stock at price S, gives the holder S −K, and pays back the loan of K used to buy the stock. If we monitor the strategy closely, we can make ep as small as we like. Consequently, this strategy should cost less than the Black-Scholes price.
       
   
